@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/white" />
+    <size
+        android:width="@dimen/item_select_number_red_ball_height"
+        android:height="@dimen/item_select_number_red_ball_height" />
+</shape>

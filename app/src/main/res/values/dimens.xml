@@ -1,0 +1,16 @@
+<resources>
+
+    <!--KeyBoard-->
+    <dimen name="lottery_soft_keyboard_part_divide_height">10dp</dimen>
+    <dimen name="lottery_buy_key_text_size">30sp</dimen>
+
+    <dimen name="lottery_buy_luck_num_display_height">55dp</dimen>
+    <dimen name="lottery_buy_add_height">40dp</dimen>
+    <dimen name="lottery_buy_input_multi_height">35dp</dimen>
+    <dimen name="lottery_buy_select_go">55dp</dimen>
+
+    <dimen name="item_select_number_red_ball_height">40dp</dimen>
+    <dimen name="item_select_number_padding">20dp</dimen>
+
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <!--face to face group-->
+    <string name="activity_buy_luck_number_limit">輸入最长为4位</string>
+    <string name="activity_buy_luck_number_success">输入成功</string>
+    <string name="app_name">demo</string>
+</resources>

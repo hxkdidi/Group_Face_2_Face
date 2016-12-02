@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/key_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="1"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+
+        <TextView
+            android:id="@+id/key_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="2"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+
+
+        <TextView
+            android:id="@+id/key_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="3"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/key_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="4"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+
+
+        <TextView
+            android:id="@+id/key_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="5"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+
+
+        <TextView
+            android:id="@+id/key_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="6"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/key_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="7"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+
+        <TextView
+            android:id="@+id/key_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="8"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+
+        <TextView
+            android:id="@+id/key_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="9"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/key_space"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:gravity="center"
+            android:text="确定"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/key_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:text="0"
+            android:textSize="@dimen/lottery_buy_key_text_size"/>
+
+        <TextView
+            android:id="@+id/key_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:paddingTop="@dimen/lottery_soft_keyboard_part_divide_height"
+            android:textSize="18dp"
+            android:text="X"
+           />
+    </LinearLayout>
+</LinearLayout>
